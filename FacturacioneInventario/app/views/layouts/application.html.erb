@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FacturacioneInventario</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= link_to "Ver productos", productos_path %>
+<%= link_to "Ver Ventas", ventas_path %>
+
+
+<%= yield %>
+
+</body>
+</html>
